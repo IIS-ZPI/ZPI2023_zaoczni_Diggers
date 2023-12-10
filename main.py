@@ -8,12 +8,12 @@ print("Diggers; developer; gruszm")
 
 class ArithmeticDifference(ABC):
     @abstractmethod
-    def Difference[T: float](self, a: T, b: T) -> T:
+    def difference[T: float](self, a: T, b: T) -> T:
         raise NotImplementedError
 
 class ArithmeticsMultiply(ABC):
     @abstractmethod
-    def Multiplication[T: float](self, a: T, b: T) -> T:
+    def multiplication[T: float](self, a: T, b: T) -> T:
         raise NotImplementedError
 # this... is very hard to implement
 class ArithmeticDivision(ABC):
@@ -23,5 +23,5 @@ class ArithmeticDivision(ABC):
 
 class ArithmeticsAdd(ABC):
     @abstractmethod
-    def Addition[T: float](self, a: T, b: T) -> T:
+    def addition[T: float](self, a: T, b: T) -> T:
         raise NotImplementedError
