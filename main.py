@@ -20,7 +20,7 @@ class ArithmeticDivision(ABC):
     @abstractmethod
     def division[T: float](self, a: T, b: T) -> T:
         raise NotImplementedError
-
+#the best abstract class ever ;) 
 class ArithmeticsAdd(ABC):
     @abstractmethod
     def Addition[T: float](self, a: T, b: T) -> T:
