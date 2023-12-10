@@ -5,23 +5,23 @@ print("maresyp")
 print("Diggers; tester; Pavlucek")
 print("Developer: Mirek0206")
 print("Diggers; developer; gruszm")
-#BBC
+
 class ArithmeticDifference(ABC):
     @abstractmethod
-    def difference[T: float](self, a: T, b: T) -> T:
+    def Difference[T: float](self, a: T, b: T) -> T:
         raise NotImplementedError
 
 class ArithmeticsMultiply(ABC):
     @abstractmethod
-    def multiplication[T: float](self, a: T, b: T) -> T:
+    def Multiplication[T: float](self, a: T, b: T) -> T:
         raise NotImplementedError
-# this... is very hard to implement
+
 class ArithmeticDivision(ABC):
     @abstractmethod
     def division[T: float](self, a: T, b: T) -> T:
         raise NotImplementedError
-#the best abstract class ever ;)
+
 class ArithmeticsAdd(ABC):
     @abstractmethod
-    def addition[T: float](self, a: T, b: T) -> T:
+    def Addition[T: float](self, a: T, b: T) -> T:
         raise NotImplementedError
