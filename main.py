@@ -10,3 +10,13 @@ class ArithmeticsMultiply(ABC):
     @abstractmethod
     def Multiplication[T: float](self, a: T, b: T) -> T:
         raise NotImplementedError
+        
+class ArithmeticDivision(ABC):
+    @abstractmethod
+    def division[T: float](self, a: T, b: T) -> T:
+        raise NotImplementedError
+
+class ArithmeticsAdd(ABC):
+    @abstractmethod
+    def Addition[T: float](self, a: T, b: T) -> T:
+        raise NotImplementedError
